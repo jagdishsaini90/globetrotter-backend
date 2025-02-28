@@ -19,7 +19,6 @@ app.use(bodyParser.json());
 app.get("/question", (req, res) => {
   const randomIndex = Math.floor(Math.random() * ENTRIES_DATA.length);
   const randomQuestion = ENTRIES_DATA[randomIndex];
-  req.session.currentQuestion = randomQuestion;
   res.json(randomQuestion);
 });
 
