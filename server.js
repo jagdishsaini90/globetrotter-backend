@@ -7,7 +7,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: [
+      "http://localhost:5173",
+      "https://globetrotter-client.vercel.app/",
+    ],
     methods: ["GET", "POST"],
   })
 );
@@ -15,6 +18,10 @@ app.use(
 const PORT = 4000;
 
 app.use(bodyParser.json());
+
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to the City Quiz API!" });
+});
 
 app.get("/question", (req, res) => {
   const randomIndex = Math.floor(Math.random() * ENTRIES_DATA.length);
