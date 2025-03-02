@@ -2273,6 +2273,236 @@ const ENTRIES_DATA = [
     ],
     correct_answer: "C",
   },
+  {
+    city: "Cape Town",
+    country: "South Africa",
+    clues: [
+      "Famous for Table Mountain and the Cape of Good Hope.",
+      "Known for its colorful Bo-Kaap neighborhood and Robben Island.",
+    ],
+    fun_fact: [
+      "Cape Town is home to the only penguin colony in Africa.",
+      "It was the first city outside of Europe to get Blue Flag status for its beaches.",
+    ],
+    trivia: [
+      "Nelson Mandela was imprisoned on Robben Island for 18 years.",
+      "The city is also known as the 'Mother City' of South Africa.",
+    ],
+    options: [
+      "A) Nairobi, Kenya",
+      "B) Cape Town, South Africa",
+      "C) Lagos, Nigeria",
+      "D) Cairo, Egypt",
+    ],
+    correct_answer: "B",
+  },
+  {
+    city: "Reykjavik",
+    country: "Iceland",
+    clues: [
+      "The northernmost capital city in the world.",
+      "Known for its geothermal hot springs and the Northern Lights.",
+    ],
+    fun_fact: [
+      "Reykjavik has no McDonald's restaurants.",
+      "It is one of the cleanest cities in the world due to its use of geothermal energy.",
+    ],
+    trivia: [
+      "The city’s name means 'Smoky Bay' in Icelandic.",
+      "Icelanders have no last names; they use patronymics instead.",
+    ],
+    options: [
+      "A) Oslo, Norway",
+      "B) Helsinki, Finland",
+      "C) Reykjavik, Iceland",
+      "D) Nuuk, Greenland",
+    ],
+    correct_answer: "C",
+  },
+  {
+    city: "Mexico City",
+    country: "Mexico",
+    clues: [
+      "One of the largest cities in the world, built on an ancient lake.",
+      "Famous for its floating gardens of Xochimilco and the Frida Kahlo Museum.",
+    ],
+    fun_fact: [
+      "Mexico City sinks about 10 inches per year due to its foundation on a drained lake.",
+      "It has more museums than any other city in the world.",
+    ],
+    trivia: [
+      "The city’s main square, Zócalo, was once the center of the Aztec capital Tenochtitlán.",
+      "It is home to the largest university in Latin America, UNAM.",
+    ],
+    options: [
+      "A) Bogotá, Colombia",
+      "B) Mexico City, Mexico",
+      "C) Lima, Peru",
+      "D) Santiago, Chile",
+    ],
+    correct_answer: "B",
+  },
+  {
+    city: "Marrakech",
+    country: "Morocco",
+    clues: [
+      "Known as the 'Red City' for its distinctive red sandstone buildings.",
+      "Famous for its bustling souks, palaces, and the Jardin Majorelle.",
+    ],
+    fun_fact: [
+      "Marrakech’s Medina is a UNESCO World Heritage site.",
+      "The city’s Jemaa el-Fnaa square is one of the busiest in Africa.",
+    ],
+    trivia: [
+      "The Koutoubia Mosque has inspired designs of many other mosques worldwide.",
+      "The city was once a major stop on ancient trans-Saharan trade routes.",
+    ],
+    options: [
+      "A) Cairo, Egypt",
+      "B) Marrakech, Morocco",
+      "C) Tunis, Tunisia",
+      "D) Algiers, Algeria",
+    ],
+    correct_answer: "B",
+  },
+  {
+    city: "Toronto",
+    country: "Canada",
+    clues: [
+      "Canada’s largest city and home to the iconic CN Tower.",
+      "Known for its multiculturalism and film industry (TIFF).",
+    ],
+    fun_fact: [
+      "Toronto has the longest street in the world, Yonge Street.",
+      "The city is home to over 200 ethnic groups speaking more than 160 languages.",
+    ],
+    trivia: [
+      "Toronto’s underground PATH network is the largest shopping complex in the world.",
+      "The city was originally called 'York' before being renamed in 1834.",
+    ],
+    options: [
+      "A) Vancouver, Canada",
+      "B) Toronto, Canada",
+      "C) Montreal, Canada",
+      "D) Ottawa, Canada",
+    ],
+    correct_answer: "B",
+  },
+  {
+    city: "Mumbai",
+    country: "India",
+    clues: [
+      "Home to Bollywood, India’s largest film industry.",
+      "Famous for the Gateway of India and Marine Drive.",
+    ],
+    fun_fact: [
+      "Mumbai was originally a group of seven islands.",
+      "It has the world's second-largest number of billionaires after New York.",
+    ],
+    trivia: [
+      "Dabbawalas deliver over 200,000 lunchboxes daily with extreme accuracy.",
+      "The city was called 'Bombay' until 1995.",
+    ],
+    options: [
+      "A) New Delhi, India",
+      "B) Mumbai, India",
+      "C) Bangalore, India",
+      "D) Kolkata, India",
+    ],
+    correct_answer: "B",
+  },
+  {
+    city: "Bangkok",
+    country: "Thailand",
+    clues: [
+      "Thailand’s bustling capital, known for its floating markets.",
+      "Famous for the Grand Palace and Wat Arun.",
+    ],
+    fun_fact: [
+      "Bangkok’s full ceremonial name is the longest place name in the world.",
+      "It is one of the most visited cities in the world.",
+    ],
+    trivia: [
+      "The city’s street food is considered among the best globally.",
+      "Bangkok has the world’s largest Chinatown outside of China.",
+    ],
+    options: [
+      "A) Manila, Philippines",
+      "B) Kuala Lumpur, Malaysia",
+      "C) Bangkok, Thailand",
+      "D) Jakarta, Indonesia",
+    ],
+    correct_answer: "C",
+  },
+  {
+    city: "Dubai",
+    country: "United Arab Emirates",
+    clues: [
+      "Home to the world’s tallest building, the Burj Khalifa.",
+      "Famous for luxury shopping, artificial islands, and desert safaris.",
+    ],
+    fun_fact: [
+      "Dubai has a police force that drives supercars like Lamborghinis.",
+      "The city built the world’s largest indoor ski resort in a desert.",
+    ],
+    trivia: [
+      "The Palm Jumeirah is an artificial island shaped like a palm tree.",
+      "Dubai has the world’s busiest international airport.",
+    ],
+    options: [
+      "A) Doha, Qatar",
+      "B) Abu Dhabi, UAE",
+      "C) Dubai, UAE",
+      "D) Riyadh, Saudi Arabia",
+    ],
+    correct_answer: "C",
+  },
+  {
+    city: "Lisbon",
+    country: "Portugal",
+    clues: [
+      "Portugal’s capital, known for its yellow trams and hilly streets.",
+      "Famous for its fado music and the Belém Tower.",
+    ],
+    fun_fact: [
+      "Lisbon is older than Rome and London.",
+      "The city survived one of the deadliest earthquakes in history in 1755.",
+    ],
+    trivia: [
+      "Lisbon’s Vasco da Gama Bridge is the longest in Europe.",
+      "It is home to one of the world’s oldest bookstores, founded in 1732.",
+    ],
+    options: [
+      "A) Madrid, Spain",
+      "B) Lisbon, Portugal",
+      "C) Barcelona, Spain",
+      "D) Porto, Portugal",
+    ],
+    correct_answer: "B",
+  },
+  {
+    city: "Seville",
+    country: "Spain",
+    clues: [
+      "Known for flamenco dancing and the Alcázar palace.",
+      "Hosts the famous Feria de Abril and Semana Santa festivals.",
+    ],
+    fun_fact: [
+      "Seville is home to the tomb of Christopher Columbus.",
+      "The city inspired the setting for the opera 'Carmen.'",
+    ],
+    trivia: [
+      "The Plaza de España was used as a filming location for 'Star Wars.'",
+      "Seville is the hottest city in Europe, with summer temperatures over 40°C (104°F).",
+    ],
+    options: [
+      "A) Valencia, Spain",
+      "B) Granada, Spain",
+      "C) Seville, Spain",
+      "D) Malaga, Spain",
+    ],
+    correct_answer: "C",
+  },
 ];
 
 module.exports = { ENTRIES_DATA };
